@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Product Section -->
+    <section class="product-section">
+        <div class="product-container">
+            <!-- Image Slider -->
+            <div class="product-gallery">
+                <img src="images.jpeg" alt="Product Image" id="main-img">
+                <div class="image-thumbnails">
+                    <img src="img1.jpg" alt="Thumbnail 1" class="thumb">
+                    <img src="img2.jpg" alt="Thumbnail 2" class="thumb">
+                    <img src="img3.png" alt="Thumbnail 3" class="thumb">
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="product-details">
+                <h1 class="product-name">Amazing Product</h1>
+                <p class="product-description">
+                    This is an amazing product that will change your life! It comes with multiple features, great reviews, and an unbeatable price.
+                </p>
+                <p class="product-price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Additional Sections -->
+        <div class="additional-sections">
+            <!-- Customer Reviews -->
+            <div class="reviews">
+                <h2>Customer Reviews</h2>
+                <p>★★★★★ - Best product ever!(1000+Reviews)</p>
+                <p>★★★★☆ - Very good, but could be cheaper(589 Reviews)</p>
+                <p>★★☆☆☆ - Average Quality(632 Reviews)</p>
+                <p>★☆☆☆☆ - Worst Quality(53 Reviews)</p>
+            </div>
+
+            <!-- Related Products -->
+            <div class="related-products">
+                <h2>Related Products</h2>
+                <div class="related-item">
+                    <img src="pexels-pixabay-52518.jpg" alt="Related Product 1">
+                    <p>Jeans</p>
+                </div>
+                <div class="related-item">
+                    <img src="istockphoto-942926448-612x612.jpg" alt="Related Product 2">
+                    <p>footwear</p>
+                </div>
+                <div class="related-item">
+                    <img src="images (1).jpeg" alt="Related Product 3">
+                    <p>watches</p>
+                </div>
+                <div class="related-item">
+                    <img src="access.jpg" alt="Related Product 3">
+                    <p>Accessories</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 E-Commerce Site. All rights reserved.</p>
+    </footer>
+
+    <!-- Quick View Popup -->
+    <div id="quick-view" class="quick-view-popup">
+        <div class="quick-view-content">
+            <span class="close-btn">&times;</span>
+            <img src="https://via.placeholder.com/300" alt="Product Quick View">
+            <h2>Quick View Product</h2>
+            <p>This is a quick view of the product.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
